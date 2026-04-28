@@ -1,18 +1,93 @@
-## Getting Started
+# 📊 Variables en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Repositorio con ejercicios prácticos enfocados en el uso de **variables, tipos de datos y buenas prácticas** en Java.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📚 Contenido
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este proyecto incluye ejemplos sobre:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* 🔤 Tipos de datos (`int`, `double`, `boolean`, `String`)
+* 🧠 Uso de variables
+* 🔒 Constantes (`final`)
+* 🏷️ Buenas prácticas en nombres de variables
+* 🔄 Concatenación de cadenas
+* 📦 Uso de `var` (tipado inferido)
+* 🏨 Ejercicios prácticos (reservas, productos, personas)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 🚀 Tecnologías utilizadas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Java (JDK 17+)
+
+---
+
+## 📂 Estructura del proyecto
+
+```plaintext id="3p7l9c"
+src/
+├── ConcatenacionCadenas.java
+├── Constantes.java
+├── DetallePersona.java
+├── DetalleProducto.java
+├── DetelleLibro.java
+├── ReglasNombresVariables.java
+├── ReservaHoteles.java
+├── TipoVar.java
+├── TiposDatos.java
+└── Variables.java
+```
+
+---
+
+## 🧠 Objetivo
+
+Este repositorio forma parte de mi proceso de aprendizaje en Java, reforzando conceptos fundamentales como:
+
+* Declaración y uso de variables
+* Diferentes tipos de datos
+* Buenas prácticas de código
+* Escritura de programas básicos
+
+---
+
+## ▶️ Cómo ejecutar
+
+1. Clonar el repositorio:
+
+```bash id="2s4p1m"
+git clone https://github.com/tu-usuario/VariablesJava.git
+```
+
+2. Abrir en tu IDE (VS Code / IntelliJ)
+
+3. Ejecutar cualquier archivo `.java`
+
+---
+
+## 💡 Ejemplo
+
+```java id="h9k3qp"
+String nombre = "Samahel";
+int edad = 23;
+
+System.out.println("Nombre: " + nombre + ", Edad: " + edad);
+```
+
+---
+
+## 📌 Mejoras futuras
+
+* Agregar interacción con usuario (`Scanner`)
+* Crear ejercicios más dinámicos
+* Aplicar validaciones de datos
+* Integrar pequeños retos tipo lógica
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Samahel Thomas**
+
